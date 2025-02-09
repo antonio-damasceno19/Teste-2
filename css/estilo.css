@@ -1,0 +1,145 @@
+/* Reset básico para garantir que a página seja exibida de forma consistente em diferentes navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #1e90ff;
+    padding: 20px 0;
+    color: white;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 2.5rem;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/* Estilo da seção hero (destaque) */
+.hero {
+    background-color: #ff6347;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    padding: 15px 30px;
+    background-color: white;
+    color: #ff6347;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+/* Estilo da seção "Sobre Nós" */
+.sobre {
+    background-color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.sobre h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.sobre p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Estilo dos formulários de cadastro */
+.formulario {
+    background-color: white;
+    padding: 40px 20px;
+    margin-top: 40px;
+    border-radius: 8px;
+}
+
+.formulario h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form label {
+    font-size: 1.1rem;
+}
+
+form input, form textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 15px 20px;
+    background-color: #1e90ff;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #4682b4;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
